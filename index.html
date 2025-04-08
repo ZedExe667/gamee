@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>بازی هوش</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 768px)">
+</head>
+<body>
+  <div class="container">
+    <form id="registerForm">
+        <input type="text" id="fullname" placeholder="نام و نام خانوادگی (فقط فارسی)" required>
+        <input type="text" id="birthdate" placeholder="تاریخ تولد (مثلاً ۱۳۷۵/۰۲/۱۰)" required>
+        <input type="text" id="city" placeholder="شهر (مثلا تهران)" required>
+        <input type="text" id="phone" placeholder="شماره موبایل (مثلاً 09121234567)" required>
+        <button type="submit">شروع بازی</button>
+        <p id="formError" style="color: red; display: none;"></p>
+      </form>
+      <!-- اضافه کردن نکات پایین فرم -->
+      <div id="tips" style="margin-top: 15px; font-size: 14px; color: #333;">
+        <ul>
+          <li>1- هیچوقت فکر تقلب در هیچ بازی به ذهنتون نزنه چون نه برای شما جذاب میشه نه برای دیگران💙</li>
+          <li>2- فرم ثبت نام رو کامل و درست پر کنید چون هروقت برنده میشید بکارتون میاد اشتباه پر کرده باشین به مشکل میخورید</li>
+          <li>3- همه شما فقط یک شانس در این مسابقه دارین برای بار دوم نمیتونین پس دقت کنید</li>
+        </ul>
+      </div>
+    </form>
+    <div id="quizContainer" class="hidden">
+      <div id="score">امتیاز: 0</div>
+      <div id="questionTimer">
+        <div class="circle">
+          <span id="time">20</span>
+        </div>
+      </div>
+      <div id="questionBox"></div>
+      <div id="options"></div>
+    </div>
+
+    <div id="alreadyParticipated" class="hidden">
+      <p>داشی فقط یکبار میتونی از شانست استفاده کنی | اینم بدون از اسم های دیگه نمیتونی استفاده کنی💙</p>
+    </div>
+  </div>
+<!-- در پایین فرم و سوالات اضافه می‌شود -->
+<div class="footer">
+    <a href="https://t.me/zed_exe" target="_blank" class="footer-link">
+      <span class="footer-text">ساخته شده توسط <span class="highlight">زد</span></span>
+      <img src="https://i.imgur.com/ZbxcrYY.png" alt="Telegram Logo" class="footer-logo">
+    </a>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
