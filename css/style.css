@@ -1,0 +1,166 @@
+body {
+    font-family: sans-serif;
+    direction: rtl;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  form input, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #score {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  #questionTimer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+  }
+  
+  .circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid #2196f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #questionBox {
+    font-size: 1.1rem;
+    margin: 20px 0 10px;
+  }
+  
+  #options button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #options button:hover {
+    background-color: #d5d5d5;
+  }
+
+  .message {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #444;
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border-right: 5px solid #4caf50;
+  }
+  
+  .card-box {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+  }
+
+  .reward-text {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  .telegram-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 25px;
+    background-color: #0088cc;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .telegram-btn:hover {
+    background-color: #006699;
+  }
+  
+  #tips.hidden {
+    display: none;
+  }
+
+  /* استایل برای footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px; /* فاصله از محتوای اصلی */
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+  }
+  
+  .footer-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit; /* رنگ لینک را به رنگ پیش‌فرض تغییر می‌دهد */
+  }
+  
+  .footer-logo {
+    width: 20px; /* اندازه لوگو به اندازه ایموجی */
+    height: 20px;
+    margin-left: 10px; /* فاصله از متن */
+  }
+  
+  .footer-text {
+    font-size: 1rem;
+  }
+  
+  .highlight {
+    color: red; /* رنگ قرمز برای "زد" */
+  }
+  
